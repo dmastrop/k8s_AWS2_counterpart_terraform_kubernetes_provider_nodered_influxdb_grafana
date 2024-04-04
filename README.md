@@ -9,4 +9,4 @@ This project also uses the terraform remote datasources.tf to pull the kubeconfi
 then used as the config_path in the kubernetes provider block in the providers.tf file.  Once we have this yaml file we can effectively
 configure the k8s on the appropriate node as specified in the kubeconfig yaml file.  Since we have 3 deployment apps the k8s control plan
 will allocate the containers between the 2 nodes in accordance with the node utlization. So the distribution of the 3 nodes is not always the same
-from one terraform deploy to the next.
+from one terraform deploy to the next...
